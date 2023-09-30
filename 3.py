@@ -1,1 +1,5 @@
-# Write your solution for algorithm 3 below
+def func(l):
+    return sorted(l, reverse=True)
+
+
+print(func([4, 2, 1, 3]))

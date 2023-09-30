@@ -1,1 +1,7 @@
-# Write your solution for algorithm 4 below
+def func(s):
+    words = str.split(s, ' ')
+
+    return sorted(words)
+
+
+print(func("I love software engineering"))

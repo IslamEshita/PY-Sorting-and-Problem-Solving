@@ -1,1 +1,5 @@
-# Write your solution for algorithm 2 below
+def func(l):
+    return sorted(l)
+
+
+print(func([4, 2, 1, 3]))
